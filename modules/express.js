@@ -6,5 +6,5 @@ module.exports = function(context, callback) {
   context.app = app;
   app.use(express.static(__dirname + '/../public'));
   nunjucks.configure(__dirname + '/../views', { express: app });
-  return callback(null);
+  return setImmediate(callback);
 };

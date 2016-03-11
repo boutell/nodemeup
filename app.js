@@ -7,7 +7,7 @@ var context = {
   db: {
     url: 'mongodb://localhost/nodemeup',
     collections: [ 'articles' ]
-  },
+  }
 };
 
 context = _.merge(context, require('./data/local.js'));
