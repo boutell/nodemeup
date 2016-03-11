@@ -14,6 +14,8 @@ Then run `node app` and visit `http://localhost:3000/` to see a lovely, empty li
 
 Sample mongo shell code to insert a test article:
 
+```
 db.articles.insert({ title: 'Test Article', body: 'Test Body', createdAt: new Date() });
+```
 
 Lots still to add here, in order to make it a slightly more self-evident example, but the key thing was to get this pattern down in a conveniently forkable form.
