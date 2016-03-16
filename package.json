@@ -21,10 +21,12 @@
   "homepage": "https://github.com/boutell/node-boilerplate#readme",
   "dependencies": {
     "async": "^1.5.2",
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "lodash": "^4.6.1",
     "mongodb": "^2.1.7",
     "nunjucks": "^2.4.0",
-    "request": "^2.69.0"
+    "request": "^2.69.0",
+    "shortid": "^2.2.4"
   }
 }

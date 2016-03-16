@@ -1,7 +1,7 @@
 var async = require('async');
 var _ = require('lodash');
 
-var modules = [ 'mongodb', 'express', 'routes', 'listen'];
+var modules = [ 'mongodb', 'express', 'routes', 'api', 'listen'];
 
 var context = {
   db: {
