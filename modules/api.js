@@ -11,7 +11,7 @@ module.exports = function(context, callback) {
         res.statusCode = 500;
         return res.send('error');
       }
-      return res.send(JSON.stringify(articles));
+      return res.send(articles);
     });
   });
 
@@ -25,7 +25,7 @@ module.exports = function(context, callback) {
         res.statusCode = 404;
         return res.send('not found');
       }
-      return res.send(JSON.stringify(article));
+      return res.send(article);
     });
   });
 
@@ -52,7 +52,7 @@ module.exports = function(context, callback) {
         res.statusCode = 500;
         return res.send('error');
       }
-      return res.send(JSON.stringify(article));
+      return res.send(article);
     });
   });
 

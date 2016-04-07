@@ -1,6 +1,7 @@
 var async = require('async');
 var _ = require('lodash');
 
+
 var modules = [ 'mongodb', 'express', 'routes', 'api', 'listen'];
 
 var context = {
@@ -9,6 +10,7 @@ var context = {
     collections: [ 'articles' ]
   }
 };
+
 
 context = _.merge(context, require('./data/local.js'));
 
